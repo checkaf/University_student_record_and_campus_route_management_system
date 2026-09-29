@@ -7,12 +7,12 @@ This project is a Java console application developed for the CIT300 Data Structu
 
 ## Group Information & Member Contributions
 
-|  Student ID |     Student Name    | Assigned Component | Responsibilities & Individual Contributions |
-
-| 23DA2-0579 | I.M Fazal    | Linked List & Menu System       | Implemented `Student.java`, `StudentLinkedList.java` for fundamental CRUD operations, and integrated the interactive menu loop in `Main.java`.              |
-| 23DA2-0873 | A.R.M Ashrif | Stack & Queue                   | Developed `ActionStack.java` for tracking system activity logs and `StudentQueue.java` for managing student service queues and deletions.                   |
-| 23DA2-1109 | K.R.Z Nashath| Binary Search Tree & Hash Table | Implemented `StudentBST.java` (including recursive insertion, searching, deletion, and in-order traversal) and `StudentHashTable.java` with linear probing. |
-| 23DA2-1046 | A.F Asrifa   | Campus Graph & Traversals       | Implemented `CampusGraph.java` using an adjacency list model along with Breadth-First Search (BFS) and Depth-First Search (DFS) graph traversal algorithms. |
+| Student ID | Student Name | Assigned Component | Responsibilities & Individual Contributions |
+| :--- | :--- | :--- | :--- |
+| **STXXXX1** | **[Member 1 Name]** | Linked List & Menu System | Implemented `Student.java`, `StudentLinkedList.java` for fundamental CRUD operations, and integrated the interactive menu loop in `Main.java`. |
+| **STXXXX2** | **[Member 2 Name]** | Stack & Queue | Developed `ActionStack.java` for tracking system activity logs and `StudentQueue.java` for managing student service queues and deletions. |
+| **STXXXX3** | **[Member 3 Name]** | Binary Search Tree & Hash Table | Implemented `StudentBST.java` (including recursive insertion, searching, deletion, and in-order traversal) and `StudentHashTable.java` with linear probing. |
+| **STXXXX4** | **[Member 4 Name]** | Campus Graph & Traversals | Implemented `CampusGraph.java` using an adjacency list model along with Breadth-First Search (BFS) and Depth-First Search (DFS) graph traversal algorithms. |
 
 ---
 
@@ -44,6 +44,7 @@ This project is a Java console application developed for the CIT300 Data Structu
 
 ## Program Features & Menu Structure
 
+```text
 ======================================
        STUDENT MANAGEMENT SYSTEM
 ======================================
@@ -59,27 +60,3 @@ This project is a Java console application developed for the CIT300 Data Structu
 10. Campus Graph (Display Connections, Run BFS & DFS Traversals)
 0. Exit
 ======================================
-
-## Project File Structure
-
-├── Main.java               # Main entry point containing menu loop and sample data
-├── Student.java            # Student model class
-├── StudentLinkedList.java  # Singly Linked List implementation
-├── ActionStack.java        # Stack implementation for recent activity tracking
-├── StudentQueue.java       # Queue implementation for service requests
-├── StudentBST.java         # Binary Search Tree implementation
-├── StudentHashTable.java   # Hash Table with Linear Probing
-└── CampusGraph.java        # Graph representation with BFS & DFS algorithms
-
-
-## Steps to Run
-
-**Clone the repository:
-  -git clone [https://github.com/checkaf/University_student_record_and_campus_route_management_system.git](https://github.com/checkaf/University_student_record_and_campus_route_management_system.git)
-  -cd University_student_record_and_campus_route_management_system
-
-**Compile all Java source files:
-  -javac *.java
-
-**Run the application:
-  -java Main
